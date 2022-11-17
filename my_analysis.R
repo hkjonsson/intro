@@ -3,9 +3,10 @@ library(tidyverse)
 
 
 
+#####plot
 
-#to not push last commit
-git reset --soft HEAD@{1}
+
+
 
 
 
