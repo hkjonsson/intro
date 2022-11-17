@@ -14,11 +14,11 @@ penguins_complete <- penguins |>
   mutate(year = factor(year))
 
 # make plot
-(bodymass_plot <- ggplot(penguins_complete,
-                    aes(x = year,
-                        y = body_mass_g,
-                        fill = sex)) +
-    geom_beeswarm(colour = "grey50",
+#(bodymass_plot <- ggplot(penguins_complete,
+#                    aes(x = year,
+#                        y = body_mass_g,
+#                        fill = sex)) +
+#    geom_beeswarm(colour = "grey50",
                   size = 2,
                   shape = 21,
                   alpha = 0.5) +
