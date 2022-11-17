@@ -6,6 +6,7 @@ pacman::p_load(palmerpenguins,  # palmer penguins data
                tidyverse,
                ggbeeswarm)      # beeswarm plot options
 
+
 <<<<<<< HEAD
 =======
 # prepare data
